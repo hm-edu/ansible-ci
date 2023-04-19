@@ -6,7 +6,8 @@ RUN pip3 install --upgrade pip wheel && \
     pip3 install --upgrade cryptography && \
     pip3 install --ignore-installed -r /tmp/requirements.txt
 RUN ansible-galaxy collection install community.docker:3.4.3 && \
-    ansible-galaxy collection install community.general:6.5.0
+    ansible-galaxy collection install community.general:6.5. && \
+    ansible-galaxy collection install containers.podman:1.10.1 
 RUN apk del build-dependencies && \
     rm -rf /var/cache/apk/*  && \
     rm -rf /root/.cache/pip  && \
