@@ -1,0 +1,16 @@
+---
+collections:
+  - name: community.docker
+    version: 3.4.3
+    type: galaxy
+    source: https://galaxy.ansible.com
+
+  - name: community.general
+    version: 6.5.0
+    type: galaxy
+    source: https://galaxy.ansible.com
+
+  - name: containers.podman
+    version: 1.10.1
+    type: galaxy
+    source: https://galaxy.ansible.com
