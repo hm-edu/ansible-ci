@@ -19,4 +19,3 @@ jobs:
         with:
           context: .
           file: Dockerfile
-          labels: ${{ steps.meta.outputs.labels }}
