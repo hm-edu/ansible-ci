@@ -4,4 +4,4 @@ typing-extensions~=4.9.0
 netaddr~=0.10.0 
 httpx~=0.26.0
 dnspython~=2.4.2
-crowdstrike-falconpy~=1.3.2
+crowdstrike-falconpy~=1.4.0
