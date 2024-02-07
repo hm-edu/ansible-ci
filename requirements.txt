@@ -1,5 +1,5 @@
 ansible~=9.2.0
-ansible-lint~=6.22.0
+ansible-lint~=24.2.0
 typing-extensions~=4.9.0
 netaddr~=0.10.0 
 httpx~=0.26.0
