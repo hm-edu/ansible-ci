@@ -1,6 +1,6 @@
 ansible~=9.4.0
 ansible-lint~=24.2.0
-typing-extensions~=4.10.0
+typing-extensions~=4.11.0
 netaddr~=1.2.1 
 httpx~=0.27.0
 dnspython~=2.6.0
