@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.20.3@sha256:d92eaec1308e111c3623b46df740297b4b9021355d3f1d491a1398ee8f640ebf
+FROM docker.io/alpine:3.20.3@sha256:beefdbd8a1da6d2915566fde36db9db0b524eb737fc57cd1367effd16dc0d06d
 ADD requirements.txt /tmp
 ADD requirements.yml /tmp
 RUN apk --no-cache add sudo python3 py3-pip openssl ca-certificates sshpass openssh-client rsync git tar unzip zip && \
