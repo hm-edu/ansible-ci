@@ -7,7 +7,7 @@ RUN pip3 install --break-system-packages --upgrade pip wheel && \
     pip3 install --break-system-packages --upgrade cryptography && \
     pip3 install --break-system-packages --ignore-installed -r /tmp/requirements.txt
 RUN ansible-galaxy install -r /tmp/requirements.yml
-COPY --from=docker.io/tailscale/tailscale:v1.88.4@sha256:360e10ad95ad03950f66df03e0dab66287f9f89076ee4012d50bc6adceafcdf3 /usr/local/bin/tailscaled /usr/local/bin/tailscale /usr/local/bin/
+COPY --from=docker.io/tailscale/tailscale:v1.90.5@sha256:8528b4f401c950308efc5cdb32b7030c3dc3c3f41884b6f1af25157a7ae051bb /usr/local/bin/tailscaled /usr/local/bin/tailscale /usr/local/bin/
 RUN apk del build-dependencies && \
     rm -rf /var/cache/apk/*  && \
     rm -rf /root/.cache/pip  && \
