@@ -10,6 +10,11 @@ collections:
     type: galaxy
     source: https://galaxy.ansible.com
 
+  - name: community.proxmox
+    version: 1.5.0
+    type: galaxy
+    source: https://galaxy.ansible.com
+
   - name: containers.podman
     version: 1.18.0
     type: galaxy
