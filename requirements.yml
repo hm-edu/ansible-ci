@@ -16,6 +16,6 @@ collections:
     source: https://galaxy.ansible.com
 
   - name: containers.podman
-    version: 1.18.1
+    version: 1.18.2
     type: galaxy
     source: https://galaxy.ansible.com
